@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace RavenFlux\VairogsHelper;
+namespace RavenFlux\VairogsHelper\Util;
 
 use ReflectionException;
 use Twig\Extension\AbstractExtension;
@@ -11,7 +11,7 @@ use Vairogs\Component\Utils\Twig\Helper;
 use Vairogs\Component\Utils\Twig\TwigTrait;
 use Vairogs\Component\Utils\Vairogs;
 
-class UtilExtension extends AbstractExtension
+class Extension extends AbstractExtension
 {
     use TwigTrait;
 
